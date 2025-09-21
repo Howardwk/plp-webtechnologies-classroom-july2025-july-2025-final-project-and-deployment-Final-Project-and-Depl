@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FutureTech Academy — Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">FutureTech Academy</a>
+      <button id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav id="site-nav" class="nav">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: url('images/hero.jpg');">
+      <div class="hero-inner">
+        <h1>Empowering Tomorrow’s Tech Leaders</h1>
+        <p>Hands-on training in IoT, Robotics, Cybersecurity, Software Engineering, AI, Cloud & Data Science.</p>
+        <a href="courses.html" class="btn">Explore Courses</a>
+      </div>
+    </section>
+
+    <section class="container featured">
+      <h2>Popular Programs</h2>
+      <div class="card-grid">
+        <article class="card">
+          <img src="images/iot.jpg" alt="IoT training program" />
+          <div class="card-content">
+            <h3>IoT Training</h3>
+            <p>Learn to build connected devices, integrate sensors, process data and deploy to cloud.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/robotics.jpg" alt="Robotics training program" />
+          <div class="card-content">
+            <h3>Robotics</h3>
+            <p>Design, program, and control robots for real-world tasks.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="images/cybersecurity.jpg" alt="Cybersecurity training program" />
+          <div class="card-content">
+            <h3>Cybersecurity</h3>
+            <p>Protect systems, networks, data — learn ethical hacking, threat modelling & defense.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> FutureTech Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

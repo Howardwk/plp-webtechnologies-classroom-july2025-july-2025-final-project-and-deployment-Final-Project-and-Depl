@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Courses — FutureTech Academy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">FutureTech Academy</a>
+      <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="site-nav" class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html" aria-current="page">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero small-hero" style="background-image:url('images/hero.jpg')">
+      <div class="hero-inner">
+        <h1>Our Courses</h1>
+        <p>Explore cutting-edge programs designed to launch your tech career</p>
+      </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="container reveal">
+      <h2>Programs We Offer</h2>
+      <p>
+        At FutureTech Academy, we provide hands-on, industry-relevant training across a wide
+        spectrum of modern technologies. Our programs are designed with project-based learning
+        and mentorship to ensure you gain real-world experience.
+      </p>
+    </section>
+
+    <!-- Courses Grid -->
+    <section class="container reveal">
+      <div class="card-grid">
+        <!-- IoT -->
+        <article class="card">
+          <img src="images/iot.jpg" alt="IoT Training">
+          <h3>Internet of Things (IoT)</h3>
+          <p>
+            Build connected devices and smart systems using microcontrollers like ESP32, sensors,
+            actuators, and cloud platforms. Learn how to prototype, program, and deploy IoT solutions
+            for industries like health, agriculture, and smart homes.
+          </p>
+          <ul>
+            <li>Duration: 10 weeks</li>
+            <li>Prerequisites: Basic electronics & programming</li>
+            <li>Mode: In-person & Online</li>
+          </ul>
+        </article>
+
+        <!-- Robotics -->
+        <article class="card">
+          <img src="images/robotics.jpg" alt="Robotics Training">
+          <h3>Robotics Engineering</h3>
+          <p>
+            Learn how to design, assemble, and program robots. Explore mechanical design, sensors,
+            actuators, embedded systems, and AI-driven robotics. Gain hands-on practice with real
+            robot kits and automation projects.
+          </p>
+          <ul>
+            <li>Duration: 12 weeks</li>
+            <li>Prerequisites: Physics & basic programming</li>
+            <li>Mode: In-person</li>
+          </ul>
+        </article>
+
+        <!-- Cybersecurity -->
+        <article class="card">
+          <img src="images/cybersecurity.jpg" alt="Cybersecurity Training">
+          <h3>Cybersecurity</h3>
+          <p>
+            Develop skills to protect networks, systems, and applications from cyber threats.
+            Topics include ethical hacking, penetration testing, cryptography, digital forensics,
+            and cloud security. Prepare for global security certifications.
+          </p>
+          <ul>
+            <li>Duration: 14 weeks</li>
+            <li>Prerequisites: Basic IT knowledge</li>
+            <li>Mode: Hybrid (Online + Lab sessions)</li>
+          </ul>
+        </article>
+
+        <!-- Software Engineering -->
+        <article class="card">
+          <img src="images/software.jpg" alt="Software Engineering Training">
+          <h3>Software Engineering</h3>
+          <p>
+            Master software development from fundamentals to advanced concepts. Learn web development,
+            databases, APIs, and agile methodologies. Work on real-world projects using modern stacks
+            like MERN, Django, or Java Spring Boot.
+          </p>
+          <ul>
+            <li>Duration: 16 weeks</li>
+            <li>Prerequisites: Logical thinking, problem-solving</li>
+            <li>Mode: Online & In-person</li>
+          </ul>
+        </article>
+
+        <!-- Artificial Intelligence -->
+        <article class="card">
+          <img src="images/ai.jpg" alt="Artificial Intelligence Training">
+          <h3>Artificial Intelligence</h3>
+          <p>
+            Dive into machine learning, natural language processing, and computer vision.
+            Learn Python libraries like TensorFlow and PyTorch, and build AI applications
+            for healthcare, finance, and smart technologies.
+          </p>
+          <ul>
+            <li>Duration: 12 weeks</li>
+            <li>Prerequisites: Python & math fundamentals</li>
+            <li>Mode: Online</li>
+          </ul>
+        </article>
+
+        <!-- Cloud Computing -->
+        <article class="card">
+          <img src="images/cloud.jpg" alt="Cloud Computing Training">
+          <h3>Cloud Computing</h3>
+          <p>
+            Understand cloud infrastructure, DevOps, and deployment using AWS, Azure, and Google Cloud.
+            Gain expertise in virtualization, serverless computing, and cloud-native applications.
+          </p>
+          <ul>
+            <li>Duration: 10 weeks</li>
+            <li>Prerequisites: Basic networking</li>
+            <li>Mode: Online</li>
+          </ul>
+        </article>
+
+        <!-- Data Science -->
+        <article class="card">
+          <img src="images/data-science.jpg" alt="Data Science Training">
+          <h3>Data Science</h3>
+          <p>
+            Learn how to analyze data, visualize insights, and make predictions using Python, R,
+            and SQL. Work with real datasets in business, healthcare, and social media applications.
+          </p>
+          <ul>
+            <li>Duration: 14 weeks</li>
+            <li>Prerequisites: Python & statistics</li>
+            <li>Mode: Online & In-person</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-banner">
+      <div class="container">
+        <h2>Ready to start your tech journey?</h2>
+        <p>Join FutureTech Academy today and gain the skills to innovate and lead in the digital age.</p><br>
+        <a href="contact.html" class="btn">Enroll Now</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> FutureTech Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
