@@ -68,7 +68,7 @@ The project is hosted using **GitHub Pages** and is available at:
 
 - **HTML5** for semantic structure  
 - **CSS3** for styling, layout, responsiveness, and animations  
-- **JavaScript (ES6)** for interactivity (menu toggle, hover effects, dynamic year)  
+- **JavaScript** for interactivity (menu toggle, hover effects, dynamic year)  
 - **GitHub Pages** for free hosting and deployment  
 
 ---
