@@ -77,6 +77,6 @@ The project is hosted using **GitHub Pages** and is available at:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/tech-school-site.git
+   git clone https://github.com/Howardwk/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl.git
 
 
